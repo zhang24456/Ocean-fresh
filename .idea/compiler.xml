@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-server (1)" />
+        <module name="demo" />
+        <module name="eureka-client" />
+        <module name="ocean-fresh-eureka1" />
+        <module name="ocean-fresh-eureka2" />
+        <module name="Ocean-fresh-MVC" />
+        <module name="ocean-fresh-zuul" />
+      </profile>
+      <profile name="Annotation profile for Ocean-fresh" enabled="true">
+        <sourceOutputDir name="../ocean-fresh-configone2/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../ocean-fresh-configone2/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-server" target="1.8" />
+      <module name="config-server (1)" target="1.8" />
+      <module name="config-server (2)" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="Ocean-fresh" target="1.5" />
+      <module name="ocean-fresh-eureka1" target="1.8" />
+      <module name="ocean-fresh-eureka2" target="1.8" />
+      <module name="Ocean-fresh-MVC" target="1.5" />
+      <module name="ocean-fresh-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
