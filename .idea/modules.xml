@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/ocean-fresh-eureka1/ocean-fresh-eureka1.iml" filepath="$PROJECT_DIR$/ocean-fresh-eureka1/ocean-fresh-eureka1.iml" />
       <module fileurl="file://$PROJECT_DIR$/ocean-fresh-eureka2/ocean-fresh-eureka2.iml" filepath="$PROJECT_DIR$/ocean-fresh-eureka2/ocean-fresh-eureka2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ocean-fresh-zuul/ocean-fresh-zuul.iml" filepath="$PROJECT_DIR$/ocean-fresh-zuul/ocean-fresh-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-eureka-producer/order-eureka-producer.iml" filepath="$PROJECT_DIR$/order-eureka-producer/order-eureka-producer.iml" />
     </modules>
   </component>
 </project>

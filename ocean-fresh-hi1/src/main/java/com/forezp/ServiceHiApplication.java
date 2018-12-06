@@ -32,9 +32,6 @@ import java.util.UUID;
 @RestController
 @MapperScan("com.forezp.dao")
 @EnableDiscoveryClient
-
-
-
 public class ServiceHiApplication {
 
 	public static void main(String[] args) {

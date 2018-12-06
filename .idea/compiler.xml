@@ -13,6 +13,7 @@
         <module name="ocean-fresh-eureka2" />
         <module name="Ocean-fresh-MVC" />
         <module name="ocean-fresh-zuul" />
+        <module name="order-eureka-producer" />
       </profile>
       <profile name="Annotation profile for Ocean-fresh" enabled="true">
         <sourceOutputDir name="../ocean-fresh-configone2/target/generated-sources/annotations" />
@@ -32,6 +33,7 @@
       <module name="ocean-fresh-eureka2" target="1.8" />
       <module name="Ocean-fresh-MVC" target="1.5" />
       <module name="ocean-fresh-zuul" target="1.8" />
+      <module name="order-eureka-producer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
