@@ -30,11 +30,8 @@ import java.util.UUID;
 @EnableEurekaClient
 @RefreshScope
 @RestController
-@MapperScan("com.forezp.dao")
+@MapperScan(value = "com.forezp.dao")
 @EnableDiscoveryClient
-
-
-
 public class ServiceHiApplication {
 
 	public static void main(String[] args) {

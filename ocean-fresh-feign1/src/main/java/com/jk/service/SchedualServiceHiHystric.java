@@ -1,5 +1,6 @@
 package com.jk.service;
 
+import model.Tree;
 import model.User;
 import org.springframework.stereotype.Component;
 
@@ -10,6 +11,9 @@ import java.util.List;
  */
 @Component
 public class SchedualServiceHiHystric implements SchedualServiceHi {
+
+
+
     @Override
     public String sayHiFromClientOne(String name) {
         return "sorry frign1"+name;
@@ -87,4 +91,8 @@ System.err.println("出错了");
 
     }
 
+    @Override
+    public List<Tree> queryTreeBypid() {
+        return null;
+    }
 }

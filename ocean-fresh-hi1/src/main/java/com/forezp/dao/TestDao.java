@@ -1,11 +1,12 @@
 package com.forezp.dao;
 
-import java.util.List;
-
+import com.forezp.model.Tree;
 import com.forezp.model.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
+
+import java.util.List;
 
 
 @Mapper
@@ -20,6 +21,9 @@ public interface TestDao {
 	void update(@Param("id") String id, @Param("name") String name, @Param("monreg") String monreg);
 
 	User toindexupdate(@Param("id") String id);
+
+	@Select("  select * from t_tree where pid=${pid} ")
+	List<Tree> queryTreeBypid(@Param("pid") String pid);
 
 }
 

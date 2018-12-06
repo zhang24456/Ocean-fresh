@@ -10,8 +10,14 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Ocean-fresh-MVC</module>
-        <module>ocean-fresh-feign</module>
+        <module>ocean-fresh-feign1</module>
+        <module>ocean-fresh-eureka1</module>
+        <module>ocean-fresh-eureka2</module>
+        <module>ocean-fresh-configone1</module>
+        <module>ocean-fresh-hi1</module>
         <module>ocean-fresh-zuul</module>
+        <module>ocean-fresh-goods</module>
+
 
     </modules>
 

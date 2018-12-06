@@ -1,7 +1,9 @@
 package com.jk.service;
 
+import model.Tree;
 import model.User;
-import org.springframework.cloud.netflix.feign.FeignClient;
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -51,4 +53,9 @@ public interface SchedualServiceHi {
 
   @RequestMapping(value = "/updatemon")
   void updatemon(@RequestParam("id") String id, @RequestParam("name") String name);
+
+    //查询树节点
+    @PostMapping(value = "/queryTreeBypid")
+    List<Tree> queryTreeBypid();
+
 }

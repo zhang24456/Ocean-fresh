@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Ocean-fresh-MVC:war">
+    <output-path>$PROJECT_DIR$/Ocean-fresh-MVC/target</output-path>
+    <root id="archive" name="Ocean-fresh-MVC-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Ocean-fresh-MVC:war exploded" />
+    </root>
+  </artifact>
+</component>

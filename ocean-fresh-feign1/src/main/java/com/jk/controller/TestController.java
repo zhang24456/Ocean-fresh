@@ -3,6 +3,7 @@ package com.jk.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import com.jk.service.SchedualServiceHi;
+import model.Tree;
 import model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -180,6 +181,17 @@ public class TestController {
 		return testService.toupdate(id);
 
 
+	}
+
+	//查询树
+	@RequestMapping("/queryTreeBypid")
+	@ResponseBody
+	public String  queryTreeBypid(@RequestParam("callback") String callback){
+
+		List<Tree> list= testService.queryTreeBypid();
+		String a=JSONObject.toJSONString(list);
+		String aa =callback+"("+a+")";
+		return aa;
 	}
 
 

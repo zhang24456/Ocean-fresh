@@ -10,4 +10,9 @@ public class demo {
     void demo(){
         System.out.println("233333333");
     }
+
+    @RequestMapping("/toGoodsAdd")
+    public String toGoodsAdd(){
+        return  "goodsAdd";
+    }
 }
