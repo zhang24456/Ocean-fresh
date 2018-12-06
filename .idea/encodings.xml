@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/Ocean-fresh-MVC" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocean-fresh-configone1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocean-fresh-configone2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocean-fresh-eureka1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocean-fresh-eureka2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocean-fresh-feign1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocean-fresh-hi1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ocean-fresh-zuul" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
