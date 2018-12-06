@@ -117,6 +117,9 @@
 
     <h2>
         三、上传商品详情图文
+        三、上传商品详情图文
+        三、上传商品详情图文
+        三、上传商品详情图文
     </h2>
 
 
@@ -128,7 +131,7 @@
     //查询商品类型
     $(function(){
         $.ajax({
-            url:"http://localhost:9001/api-b/findTypeList",
+            url:"http://localhost:9001/findTypeList",
             dataType:"jsonp",  //数据格式设置为jsonp
             jsonp:"callback",  //Jquery生成验证参数的名称
             //jsonpCallback: "successCallback",  //指定回调函数名称

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
+        <module name="demo" />
         <module name="eureka-client" />
         <module name="ocean-fresh-eureka1" />
         <module name="ocean-fresh-eureka2" />
@@ -19,6 +20,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-server" target="1.8" />
+      <module name="demo" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="Ocean-fresh" target="1.5" />
       <module name="ocean-fresh-eureka1" target="1.8" />

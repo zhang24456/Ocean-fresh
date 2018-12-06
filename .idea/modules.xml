@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Ocean-fresh.iml" filepath="$PROJECT_DIR$/Ocean-fresh.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ocean-fresh-MVC/Ocean-fresh-MVC.iml" filepath="$PROJECT_DIR$/Ocean-fresh-MVC/Ocean-fresh-MVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/ocean-fresh-configone1/config-server.iml" filepath="$PROJECT_DIR$/ocean-fresh-configone1/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ocean-fresh-goods-feign/demo.iml" filepath="$PROJECT_DIR$/ocean-fresh-goods-feign/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ocean-fresh-hi1/eureka-client.iml" filepath="$PROJECT_DIR$/ocean-fresh-hi1/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/ocean-fresh-eureka1/ocean-fresh-eureka1.iml" filepath="$PROJECT_DIR$/ocean-fresh-eureka1/ocean-fresh-eureka1.iml" />
       <module fileurl="file://$PROJECT_DIR$/ocean-fresh-eureka2/ocean-fresh-eureka2.iml" filepath="$PROJECT_DIR$/ocean-fresh-eureka2/ocean-fresh-eureka2.iml" />
